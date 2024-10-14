@@ -3,7 +3,7 @@
 
 Welcome to the **Restaurant Menu App** – a dynamic, visually engaging restaurant menu built with **React** and **Vite**. This app showcases a variety of delicious starters, main courses, vegan options, drinks, and desserts with images and descriptions. Perfect for restaurant owners to present their menus in an interactive, modern style!
 
-![menu-preview](http://localhost:5174/) <!-- Replace with a screenshot of your app -->
+![menu-preview](https://firebasestorage.googleapis.com/v0/b/adminstorage-3213f.appspot.com/o/Screenshot%202024-10-14%20at%2011.47.37%E2%80%AFAM.png?alt=media&token=13a3b49c-f649-4bbc-9b62-5189e0315807) <!-- Replace with a screenshot of your app -->
 
 ---
 
