@@ -1,0 +1,114 @@
+/* Menu.module.css */
+
+/* Main menu container */
+.menu {
+    width: 90%;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 100px auto 20px; 
+  }
+  /* Title styling for the menu */
+  .menu-title {
+    text-align: center;
+    color: #333;
+    margin: 40px 0 20px; /* Adds top margin to move "Our Menu" down */
+    font-size: 1.8em;
+  }
+  
+  /* Heading for the menu */
+  .menu h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 40px;
+  }
+  
+  /* Category styling */
+  .menu-category {
+    margin-bottom: 30px;
+  }
+  
+  .menu-category h2 {
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Menu item styling */
+  .menu-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .menu-item:last-child {
+    border-bottom: none;
+  }
+  
+  /* Image styling for menu items */
+  .menu-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds depth to images */
+  }
+  
+  /* Text styling within menu items */
+  .menu-item h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item p {
+    margin: 3px 0;
+    color: #666;
+    font-size: 0.9em;
+  }
+  
+  /* Price styling */
+  .price {
+    font-weight: bold;
+    color: #008080;
+    font-size: 1em;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    /* Adjust menu width and padding */
+    .menu {
+        width: 95%;
+        padding: 15px;
+      }
+    
+      .menu-title {
+        font-size: 1.5em;
+        margin: 30px 0 15px; /* Slightly smaller top margin for mobile */
+      }
+    .menu h2 {
+      font-size: 1.8em;
+      margin: 30px 0 15px;
+    }
+  
+    .menu-category h2 {
+      font-size: 1.2em;
+    }
+  
+    .menu-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    /* Adjust image size for smaller screens */
+    .menu-item img {
+      width: 100%;
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+  }

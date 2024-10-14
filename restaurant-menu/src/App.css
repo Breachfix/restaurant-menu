@@ -14,63 +14,18 @@ body {
   background-color: #f8f8f8;
 }
 
-.menu {
-  width: 90%;
-  max-width: 800px;
+/* Basic styling for the main app structure */
+.app-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
   padding: 20px;
-  background-color: #ffffff;
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
   text-align: center;
+  color: #333;
   margin-bottom: 20px;
-  color: #333;
 }
 
-.menu-category {
-  margin-bottom: 30px;
-}
-
-.menu-category h2 {
-  color: #555;
-  border-bottom: 2px solid #ddd;
-  padding-bottom: 5px;
-  margin-bottom: 15px;
-}
-
-.menu-item {
-  display: flex;
-  align-items: center;
-  padding: 15px;
-  border-bottom: 1px solid #eee;
-}
-
-.menu-item:last-child {
-  border-bottom: none;
-}
-
-.menu-item img {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: 8px;
-  margin-right: 15px;
-}
-
-.menu-item h3 {
-  font-size: 1.2em;
-  color: #333;
-  margin-bottom: 5px;
-}
-
-.menu-item p {
-  margin: 3px 0;
-  color: #666;
-}
-
-.price {
-  font-weight: bold;
-  color: #008080;
-}
+/* Add other global styles or specific components as needed */

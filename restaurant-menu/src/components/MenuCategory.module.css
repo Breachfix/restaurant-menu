@@ -1,0 +1,28 @@
+/* MenuCategory.module.css */
+
+/* Category container with padding to prevent touching edges */
+.menu-category {
+    margin: 20px 0; /* Space between each category */
+    padding: 10px 20px; /* Adds padding inside each category */
+  }
+  
+  /* Category title */
+  .category-title {
+    font-size: 1.5em;
+    color: #555;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .menu-category {
+      padding: 10px; /* Reduces padding on smaller screens */
+      margin: 20px 0; /* Adds space between categories */
+    }
+  
+    .category-title {
+      font-size: 1.3em;
+    }
+  }
