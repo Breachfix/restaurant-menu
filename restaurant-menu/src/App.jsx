@@ -7,7 +7,7 @@ import About from './components/About';
 import Menu from './components/Menu';
 import Reviews from './components/Reviews';
 import Contact from './components/Contact';
-import './App.css';
+import './style/App.css';
 
 const App = () => (
     <div>

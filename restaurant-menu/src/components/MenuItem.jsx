@@ -1,6 +1,6 @@
 // src/components/MenuItem.jsx
 import React from 'react';
-import styles from './MenuItem.module.css';
+import styles from '../style/MenuItem.module.css';
 
 const MenuItem = ({ name, price, description, image }) => (
     <div className={styles['menu-item']}>

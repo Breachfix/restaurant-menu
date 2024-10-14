@@ -1,6 +1,6 @@
 // src/components/Contact.jsx
 import React from 'react';
-import styles from './Contact.module.css';
+import styles from '../style/Contact.module.css';
 
 const Contact = () => (
     <div className={styles.contact}>

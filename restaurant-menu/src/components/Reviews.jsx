@@ -1,6 +1,6 @@
 // src/components/Reviews.jsx
 import React, { useState } from 'react';
-import styles from './Reviews.module.css';
+import styles from '../style/Reviews.module.css';
 
 const Reviews = () => {
     const [reviews, setReviews] = useState([]);

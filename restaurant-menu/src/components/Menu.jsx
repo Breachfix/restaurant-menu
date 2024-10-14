@@ -1,7 +1,7 @@
 // src/components/Menu.jsx
 import React from 'react';
 import MenuCategory from './MenuCategory';
-import styles from './Menu.module.css';
+import styles from '../style/Menu.module.css';
 
 const menuData = [
     {

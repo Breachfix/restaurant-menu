@@ -1,7 +1,7 @@
 // src/components/Welcome.jsx
 // src/components/Welcome.jsx
 import React from 'react';
-import styles from './Welcome.module.css';
+import styles from '../style/Welcome.module.css';
 
 const Welcome = () => {
     return (

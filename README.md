@@ -68,22 +68,33 @@ Open http://localhost:5173 to view it in the browser.
 ```plaintext
 restaurant-menu/
 ├── public/
-│   └── images/                 # Menu item images
+│   └── images/                   # Contains images used in the menu (e.g., food photos)
+│       ├── Anti-Inflammatory-Vegan-Green-Smoothie.jpg
+│       ├── bruschetta.jpg
+│       ├── greenevi-grilled-veggie-skewers.webp
+│       └── ...additional images
+│
 ├── src/
-│   ├── assets/                 # Additional assets like fonts, icons, etc.
-│   ├── components/             # React components
-│   │   ├── MenuCategory.jsx    # Menu category component
-│   │   └── MenuItem.jsx        # Menu item component
-│   ├── App.css                 # Main styling for the app
-│   ├── App.jsx                 # Main application component
-│   ├── index.css               # Global CSS styles
-│   └── main.jsx                # Entry point for React
-├── .gitignore                  # Git ignore file
-├── eslint.config.js            # ESLint configuration
-├── index.html                  # Main HTML file for the app
-├── package.json                # Project configuration and dependencies
-├── README.md                   # Project documentation
-└── vite.config.js              # Vite configuration
+│   ├── components/               # Contains reusable React components
+│   │   ├── Navbar.jsx            # The navigation bar component
+│   │   ├── Menu.jsx              # Main Menu component
+│   │   ├── MenuCategory.jsx      # Menu Category component, rendering each category
+│   │   ├── MenuItem.jsx          # Menu Item component, rendering each dish
+│   │   ├── Welcome.jsx           # Welcome page component
+│   │   └── ...other components
+│   │
+│   ├── styles/                   # Contains CSS modules and styles
+│   │   ├── App.css               # Global and general app styling
+│   │   ├── Menu.module.css       # Styles specific to the Menu component
+│   │   ├── MenuCategory.module.css # Styles for MenuCategory component
+│   │   ├── MenuItem.module.css   # Styles for MenuItem component
+│   │   └── Navbar.module.css     # Styles for Navbar component
+│   │
+│   ├── App.jsx                   # Main App component where routes and layout are defined
+│   ├── main.jsx                  # Entry point for ReactDOM rendering
+│   └── index.css                 # General styles applied to the root app
+│
+└── README.md                     # Documentation for the app setup and usage
 
 🛠️ Technologies Used
 

@@ -1,7 +1,7 @@
 // src/components/MenuCategory.jsx
 import React from 'react';
 import MenuItem from './MenuItem';
-import styles from './MenuCategory.module.css';
+import styles from '../style/MenuCategory.module.css';
 
 const MenuCategory = ({ category, items }) => (
     <div className={styles['menu-category']}>
